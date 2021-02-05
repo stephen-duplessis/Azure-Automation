@@ -21,4 +21,4 @@ Each NSG is then associated with a subnet:
 * _AppSubnet_ to _App_NSG_
 * _DBSubnet_ to _DB_NSG_
 
-It creates DMZ rules for the App subnet to expose endpoints to the Internet. It secures the App subnet and the Database subnet with appropriate rules. It blocks Outbound Internet access to VMs in the App and Database subnets. It opens up the Database Subnet only on port 1433 the App Subnet.
+It creates DMZ rules for the App subnet to expose endpoints to the Internet. It secures the App subnet and the Database subnet with appropriate rules. It blocks Outbound Internet access to VMs in the App and Database subnets. It will open up the Database Subnet only on port 1433 the App Subnet.
