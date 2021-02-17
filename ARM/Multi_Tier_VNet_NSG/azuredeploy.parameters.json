@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "virtualNetworkName": {
-      "value": "VNet Name"
+      "value": "VNet Name 1"
     },
     "addressPrefix": {
       "value": "10.0.0.0/16"
